@@ -1,0 +1,15 @@
+{
+    "manifest_version":2,
+    "name": "New Tab New Knowledge",
+    "version": "1.0",
+
+    "description": "Opens random wikipedia tab in the new tab",
+
+    "permissions":[
+        "tabs"
+    ],
+
+  "chrome_url_overrides" : {
+      "newtab": "knowledgetab.html"
+  }
+}
