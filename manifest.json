@@ -8,8 +8,12 @@
     "permissions":[
         "tabs"
     ],
+    "browser_action": {
+    	"default_icon": "Icons/action_temp.svg",
+	"default_title": "New Tab New Knowledge"
+    },
 
-  "chrome_url_overrides" : {
-      "newtab": "knowledgetab.html"
-  }
+    "chrome_url_overrides" : {
+        "newtab": "knowledgetab.html"
+    }
 }
